@@ -194,7 +194,7 @@ Compared complaint categories to identify:
 
 ### Volume of Complaints by Type
 
-![Volume of Complaints by Type](visualizations/complaint_volume_type.png)
+![Volume of Complaints by Type](tableau/complaint_volume_type.png)
 
 This visualization highlights the most common DOT-related complaint categories and helps identify areas generating the highest service demand.
 
@@ -202,7 +202,7 @@ This visualization highlights the most common DOT-related complaint categories a
 
 ### Resolution Time by Type (Median)
 
-![Resolution Time by Type (Median)](visualizations/resolution_time_type_median.png)
+![Resolution Time by Type (Median)](tableau/resolution_time_type_median.png)
 
 Median resolution times provide insight into the typical time required to resolve each complaint category while reducing the impact of extreme outliers.
 
@@ -210,7 +210,7 @@ Median resolution times provide insight into the typical time required to resolv
 
 ### Resolution Time by Type (Average)
 
-![Resolution Time by Type (Average)](visualizations/resolution_time_type_average.png)
+![Resolution Time by Type (Average)](tableau/resolution_time_type_average.png)
 
 Average resolution times highlight complaint categories that may require additional resources or more complex resolution processes.
 
@@ -218,7 +218,7 @@ Average resolution times highlight complaint categories that may require additio
 
 ### Complaint Volume vs. Resolution Time
 
-![Volume vs Resolution Time](visualizations/volume_resolution_time_comparison.png)
+![Volume vs Resolution Time](tableau/volume_resolution_time_comparison.png)
 
 This scatter plot compares complaint volume against average resolution time to identify whether high-demand complaint categories are associated with slower response performance.
 
@@ -260,8 +260,6 @@ nyc-311-dot-complaint-analysis/
 │   └── add_resolution_time.py
 │
 ├── tableau/
-│
-├── visualizations/
 │   ├── complaint_volume_type.png
 │   ├── resolution_time_type_median.png
 │   ├── resolution_time_type_average.png
